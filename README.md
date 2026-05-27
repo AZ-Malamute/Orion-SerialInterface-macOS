@@ -1,14 +1,14 @@
 # Orion Source of Truth Serial Interface for macOS
 
-**Orion Source of Truth Serial Interface for macOS** is a public source-truth seed for building a native macOS serial communication layer for instrument workflows, beginning with the PLACO PLA unit.
+**Orion Source of Truth Serial Interface for macOS** is a public source-truth seed for building a native macOS serial communication layer for instrument workflows, beginning with the PLAKO PLA unit.
 
 ## Current status
 
 **Untested hardware seed.**
 
-This repository is not yet verified against the physical PLACO PLA unit. It is being published openly so the architecture, assumptions, documentation, and test path are visible from the beginning.
+This repository is not yet verified against the physical PLAKO PLA unit. It is being published openly so the architecture, assumptions, documentation, and test path are visible from the beginning.
 
-Greg will mark this repository as tested only after he can connect the PLACO PLA unit, verify serial communication, capture real responses, and document the results.
+Greg will mark this repository as tested only after he can connect the PLAKO PLA unit, verify serial communication, capture real responses, and document the results.
 
 ## Purpose
 
@@ -19,7 +19,7 @@ The goal is not to replace existing instrument ecosystems. The goal is to create
 - macOS
 - Swift / SwiftUI
 - serial devices
-- PLACO PLA workflows
+- PLAKO PLA workflows
 - SpatialAnalyzer-adjacent workflows
 - metrology source packets
 - reproducible test logs
@@ -37,7 +37,7 @@ The goal is not to replace existing instrument ecosystems. The goal is to create
 
 ## Initial target
 
-PLACO PLA serial communication.
+PLAKO PLA serial communication.
 
 ## Planned workflow
 
@@ -52,7 +52,7 @@ PLACO PLA serial communication.
 
 ## Untested disclaimer
 
-This repository currently contains architecture notes and a test plan only. It should not be used as a validated production driver or confirmed PLACO PLA interface until hardware testing is complete.
+This repository currently contains architecture notes and a test plan only. It should not be used as a validated production driver or confirmed PLAKO PLA interface until hardware testing is complete.
 
 ## Design language
 
